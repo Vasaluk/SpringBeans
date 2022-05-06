@@ -1,6 +1,7 @@
 package app.model;
 import org.springframework.stereotype.Component;
 
+@Primary
 @Component
 public class Dog extends Animal {
     @Override
